@@ -1,0 +1,21 @@
+{
+  "rules": {
+    "indent": ["error", 2],
+    "max-len": ["error", { "code": 80 }],
+    "quotes": [2, "single" , { "avoidEscape": true }],
+    "linebreak-style": [2, "unix"],
+    "semi": [2, "always"],
+    "comma-dangle": ["error", "never"],
+    "keyword-spacing": [2, { "before": true, "after": true }],
+    "space-before-blocks": [2, "always"]
+  },
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2018
+  }
+}
