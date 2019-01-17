@@ -6,7 +6,7 @@ same static values are used.
 ## Installation
 
 ```sh
-yarn add -D git+https://github.com/johanholmerin/static-literal-parts#semver:^1.0.0
+yarn add git+https://github.com/johanholmerin/static-literal-parts#semver:^1.0.0
 ```
 
 ## Usage
