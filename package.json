@@ -1,6 +1,8 @@
 {
   "name": "static-literal-parts",
   "version": "1.0.0",
+  "main": "./index.js",
+  "type": "module",
   "author": "Johan Holmerin",
   "license": "MIT",
   "repository": {
@@ -9,11 +11,10 @@
   },
   "devDependencies": {
     "eslint": "^5.12.0",
-    "esm": "^3.0.84",
     "tap": "^12.1.1"
   },
   "scripts": {
     "lint": "eslint *.js",
-    "test": "tap --node-arg=-r --node-arg=esm test.js"
+    "test": "tap test.js"
   }
 }

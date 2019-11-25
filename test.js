@@ -1,4 +1,4 @@
-const tap = require('tap');
+import tap from 'tap';
 import { stat, wrap } from './index.js';
 
 tap.test('static value is inserted', t => {
